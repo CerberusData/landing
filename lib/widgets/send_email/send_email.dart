@@ -2,7 +2,7 @@ import 'package:cerberus/constants/app_colors.dart';
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
 import 'package:responsive_builder/responsive_builder.dart';
-import 'package:cerberus/extensions/hover_extensions.dart';
+import 'package:cerberus/widgets/animations/hover/hover_extensions.dart';
 import 'package:url_launcher/url_launcher.dart';
 
 class SendEmail extends StatelessWidget {
@@ -129,6 +129,7 @@ void customLaunch(context, command) async {
 /* MAILER */
 /* ============================================================================ */
 // TODO (davidnet) Remove this part of the code
+// (Fredhii) Posible option to change mail code in order to send mails incognitly 
 /* 
 void customLaunch(context, mailaddress) async {
   print('OK');

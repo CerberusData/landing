@@ -3,7 +3,7 @@ import 'package:cerberus/router/route_names.dart';
 import 'package:cerberus/widgets/navigation_bar/navbar_item/navbar_item.dart';
 import 'package:cerberus/widgets/navigation_bar/navbar_logo.dart';
 import 'package:flutter/material.dart';
-import 'package:cerberus/extensions/hover_extensions.dart';
+import 'package:cerberus/widgets/animations/hover/hover_extensions.dart';
 
 class TabletDesktopNavBar extends StatelessWidget {
   const TabletDesktopNavBar({Key key}) : super(key: key);

@@ -1,5 +1,5 @@
+import 'package:cerberus/views/home_view/content/sectionOne/paragraph_one.dart';
 import 'package:cerberus/widgets/responsive_images/responsive_image.dart';
-import '../paragraph_one.dart';
 import 'package:flutter/material.dart';
 
 

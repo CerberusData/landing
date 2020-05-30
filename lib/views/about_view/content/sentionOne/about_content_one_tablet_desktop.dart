@@ -1,10 +1,9 @@
 import 'package:cerberus/constants/app_text.dart';
+import 'package:cerberus/views/about_view/content/sentionOne/about_paragraph_one.dart';
 import 'package:flutter/material.dart';
 
-import 'about_paragraph_two.dart';
-
-class AboutContentTwoTabletDesktop extends StatelessWidget {
-  const AboutContentTwoTabletDesktop({Key key}) : super(key: key);
+class AboutContentOneTabletDesktop extends StatelessWidget {
+  const AboutContentOneTabletDesktop({Key key}) : super(key: key);
 
   @override
   Widget build(BuildContext context) {
@@ -17,7 +16,7 @@ class AboutContentTwoTabletDesktop extends StatelessWidget {
           Text('Team',
               textAlign: TextAlign.center,
               style: TextStyle(
-                  fontWeight: FontWeight.w700,
+                  fontWeight: FontWeight.w600,
                   height: 1.0,
                   fontSize: titleSizeDesktop)),
           SizedBox(height: 40),

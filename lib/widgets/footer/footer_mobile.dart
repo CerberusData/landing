@@ -1,7 +1,7 @@
 import 'package:cerberus/constants/app_colors.dart';
 import 'package:cerberus/widgets/social_icons/socialicons.dart';
 import 'package:flutter/material.dart';
-import 'package:cerberus/extensions/hover_extensions.dart';
+import 'package:cerberus/widgets/animations/hover/hover_extensions.dart';
 import 'package:font_awesome_flutter/font_awesome_flutter.dart';
 import 'package:url_launcher/url_launcher.dart';
 
@@ -85,7 +85,9 @@ class ContentFooterMobile extends StatelessWidget {
                               height: 20,
                             ),
                             InkWell(
-                              // TODO (Davidnet): Resolve this to an accurate location
+                              /* ========================================================= */
+                              /* TODO (Davidnet): Resolve this to an accurate location */
+                              /* ========================================================= */
                               child: Text(
                                   "Transversal 5A #39-174 Medellin, Colombia",
                                   style: TextStyle(color: Colors.white60)),
@@ -93,7 +95,9 @@ class ContentFooterMobile extends StatelessWidget {
                                   'https://goo.gl/maps/Kc5cCe9e9PDgatKY9'),
                             ).showCursorOnHover.moveUpOnHover,
                             SizedBox(height: 10),
-                            // TODO (Davidnet): Resolve this to Steph email in cerberus
+                            /* ========================================================= */
+                            /* TODO (Davidnet): Resolve this to Steph email in cerberus */
+                            /* ========================================================= */
                             Text('info@cerberusdata.ai',
                                 style: TextStyle(color: Colors.white60)),
                             SizedBox(height: 10),
@@ -120,6 +124,9 @@ class ContentFooterMobile extends StatelessWidget {
                               child:
                                   SocialIcon(icon: FontAwesomeIcons.facebook),
                               onTap: () => launch(
+                              /* ========================================================= */
+                              /* TODO (Fredhii): Update media url */
+                              /* ========================================================= */
                                   'https://www.instagram.com/cerberus.data/'),
                             ).showCursorOnHover.moveUpOnHover,
                             InkWell(

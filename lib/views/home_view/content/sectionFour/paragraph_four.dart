@@ -9,10 +9,6 @@ class ParagraphFour extends StatelessWidget {
   Widget build(BuildContext context) {
     return ResponsiveBuilder(
       builder: (context, sisizngInformation) {
-        var textAlignment = 
-            sisizngInformation.deviceScreenType == DeviceScreenType.desktop 
-            ? TextAlign.left
-            : TextAlign.center;
         double titleSize = 
             sisizngInformation.isMobile
             ? subtitleSizeMobile
@@ -30,27 +26,21 @@ class ParagraphFour extends StatelessWidget {
               children: <Widget>[
                 Text(
                   'Technology',
-                  textAlign: textAlignment,
-                  style: TextStyle(fontWeight: FontWeight.w700, height: 1.0, fontSize: titleSize)
+                  textAlign: TextAlign.center,
+                  style: TextStyle(fontWeight: FontWeight.w700, height: 1.0, fontSize: titleSize, letterSpacing: 1.2)
                 ),
                 SizedBox(height: 20),
                 Text(
                   'Terraform (Cloud or on premise solutions) Raspberry Pi and Jetson Family, Tensorflow',
-                  textAlign: textAlignment,
-                  style: TextStyle(fontSize: descriptionSize),
+                  textAlign: TextAlign.center,
+                  style: TextStyle(fontSize: descriptionSize, letterSpacing: 1.2),
                 ),
                 SizedBox(height: 10),
                 Text(
                   'Our solution can be deployed through the use of containers (Docker) into a multiple family of IoT devices, our focus is using both Raspberry Pi, for tasks that do not require a lot of edge computing, and Jetson for tasks that require real-time video processing.',
-                  textAlign: textAlignment,
-                  style: TextStyle(fontSize: descriptionSize),
+                  textAlign: TextAlign.center,
+                  style: TextStyle(fontSize: descriptionSize, letterSpacing: 1.2),
                 ),
-                /* SizedBox(height: 10),
-                Text(
-                  'In both edge and cloud computing we leverage the power of tensorflow for anomaly detection and environment understanding.',
-                  textAlign: textAlignment,
-                  style: TextStyle(fontSize: descriptionSize),
-                ), */
                 SizedBox(height: 20)
               ],
             ),
