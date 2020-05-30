@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:provider/provider.dart';
 import 'package:cerberus/locator.dart';
-import 'package:cerberus/extensions/hover_extensions.dart';
+import 'package:cerberus/widgets/animations/hover/hover_extensions.dart';
 import 'package:responsive_builder/responsive_builder.dart';
 import 'package:cerberus/datamodels/navbar_item_model.dart';
 import 'package:cerberus/services/navigation/navigation_service.dart';

@@ -1,9 +1,9 @@
-import 'package:cerberus/views/home_view/content/paragraph_two.dart';
+import 'package:cerberus/views/home_view/content/sectionFour/paragraph_four.dart';
 import 'package:cerberus/widgets/responsive_images/responsive_image.dart';
 import 'package:flutter/material.dart';
 
-class SectionTwoTabletDesktop extends StatelessWidget {
-  const SectionTwoTabletDesktop({Key key}) : super(key: key);
+class SectionFourTabletDesktop extends StatelessWidget {
+  const SectionFourTabletDesktop({Key key}) : super(key: key);
 
   @override
   Widget build(BuildContext context) {
@@ -12,8 +12,8 @@ class SectionTwoTabletDesktop extends StatelessWidget {
       height: (MediaQuery.of(context).size.height) - 120, /* IMPORTANT */
       child: Row(
         children: <Widget>[
-          Expanded(child: Center(child: ResponsiveImage('assets/images/home_four.png'))),
-          ParagraphTwo(),
+          ParagraphFour(),
+          Expanded(child: Center(child: ResponsiveImage('assets/images/home_three.png'))),
         ],
       ),
     );

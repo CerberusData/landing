@@ -1,7 +1,9 @@
+import 'package:cerberus/widgets/animations/hover/on_hover.dart';
 import 'package:flutter/material.dart';
-// TODO (davidnet): Eventually as PWA we should let the app be cross-platform
+/* ============================================================================== */
+/* TODO (davidnet): Eventually as PWA we should let the app be cross-platform */
+/* ============================================================================== */
 import 'dart:html' as html;
-import 'package:cerberus/widgets/on_hover.dart';
 
 extension HoverExtensions on Widget {
   static final appContainer =

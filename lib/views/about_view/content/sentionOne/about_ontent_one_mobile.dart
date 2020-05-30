@@ -1,9 +1,9 @@
 import 'package:cerberus/constants/app_text.dart';
-import 'package:cerberus/views/about_view/about_content_two/about_paragraph_two.dart';
+import 'package:cerberus/views/about_view/content/sentionOne/about_paragraph_one.dart';
 import 'package:flutter/material.dart';
 
-class AboutContentTwoMobile extends StatelessWidget {
-  const AboutContentTwoMobile({Key key}) : super(key: key);
+class AboutContentOneMobile extends StatelessWidget {
+  const AboutContentOneMobile({Key key}) : super(key: key);
 
   @override
   Widget build(BuildContext context) {

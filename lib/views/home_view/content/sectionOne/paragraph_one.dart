@@ -11,7 +11,7 @@ class ParagraphOne extends StatelessWidget {
     return ResponsiveBuilder(
       builder: (context, sisizngInformation) {
         var textAlignment = 
-            sisizngInformation.deviceScreenType == DeviceScreenType.desktop 
+            sisizngInformation.isMobile
             ? TextAlign.left
             : TextAlign.center;
         double titleSize = 
@@ -22,23 +22,35 @@ class ParagraphOne extends StatelessWidget {
             sisizngInformation.isMobile
             ? textSizeTwoMobile
             : textSizeTwoDesktop;
+        double leftpadd =
+            sisizngInformation.isMobile
+            ? 40
+            : sisizngInformation.isTablet
+            ? 60
+            : 120;
+        double rigthpadd =
+            sisizngInformation.isMobile
+            ? 40
+            : sisizngInformation.isTablet
+            ? 0
+            : 0;
 
         return Container(
-            padding: const EdgeInsets.symmetric(horizontal: 50),
+            padding: EdgeInsets.only(left: leftpadd, right: rigthpadd),
             width: 600,
             child: Column(
               mainAxisAlignment: MainAxisAlignment.center,
               children: <Widget>[
                 Text(
                   'Cerberus',
-                  textAlign: TextAlign.center,
-                  style: TextStyle(fontWeight: FontWeight.w700, height: 1.0, fontSize: titleSize)
+                  textAlign: textAlignment,
+                  style: TextStyle(fontWeight: FontWeight.w500, fontSize: titleSize)
                 ),
                 SizedBox(height: 20),
                 Text(
                   'Improve your data recollection through the use of IoT and Machine learning',
                   textAlign: textAlignment,
-                  style: TextStyle(fontSize: descriptionSize),
+                  style: TextStyle(fontSize: descriptionSize, letterSpacing: 1.2),
                 ),
                 SizedBox(height: 20),
                 SendEmail()

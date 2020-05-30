@@ -1,11 +1,11 @@
-import 'package:cerberus/views/home_view/content/desktop/content_four_tablet_desktop.dart';
-import 'package:cerberus/views/home_view/content/desktop/content_one_desktop.dart';
+import 'package:cerberus/views/home_view/content/sectionFour/content_four_tablet_desktop.dart';
+import 'package:cerberus/views/home_view/content/sectionOne/content_one_desktop.dart';
+import 'package:cerberus/views/home_view/content/sectionThree/content_three_tablet_desktop.dart';
+import 'package:cerberus/views/home_view/content/sectionTwo/content_two_tablet_desktop.dart';
 import 'package:cerberus/widgets/footer/footer_main.dart';
 import 'package:cerberus/widgets/navigation_bar/navbar_main.dart';
 import 'package:flutter/material.dart';
 
-import 'content/desktop/content_three_tablet_desktop.dart';
-import 'content/desktop/content_two_tablet_desktop.dart';
 
 
 class HomeViewTabletDesktop extends StatelessWidget {
