@@ -1,10 +1,29 @@
-# cerberus
+<p align="center">
+  <img src="https://i.imgur.com/dDgUIDW.png" width="100" height="80">
+  <h3 align="center">Cerberus</h3>
 
-A landing page for Cerberus 
+  <p align="center">
+        <em>Landing Page</em>
+    <br /><br />
+    <a href="https://github.com/CerberusData/landing/issues">Report Bug</a>
+    ·
+    <a href="https://github.com/fredhii/CerberusData/landing/issues">Request Feature</a>
+  </p>
+</p>
 
-## Getting Started
+<p align="center">
+  <img src="https://i.imgur.com/OMTBBs7.png">
+</p>
 
-Make sure to keep valid names for this package, see the TODOs
 
-Also this site is being deployed on firebase
-
+## Project Structure
+    .
+    ├── assets                  # Project media (images and fonts)
+    ├── lib
+    │   ├── constants
+    │   ├── datamodels
+    │   ├── router
+    │   ├── services
+    │   ├── view                # Project interfaces
+    │   └── widgets             # Project Components
+    ├── ...
