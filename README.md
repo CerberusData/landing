@@ -7,7 +7,7 @@
     <br /><br />
     <a href="https://github.com/CerberusData/landing/issues">Report Bug</a>
     ·
-    <a href="https://github.com/fredhii/CerberusData/landing/issues">Request Feature</a>
+    <a href="https://github.com/CerberusData/landing/issues">Request Feature</a>
   </p>
 </p>
 

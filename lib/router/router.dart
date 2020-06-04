@@ -1,3 +1,4 @@
+import 'package:cerberus/views/technology_view/tech_view.dart';
 import 'package:flutter/material.dart';
 import 'package:cerberus/views/about_view/about_view.dart';
 import 'package:cerberus/views/home_view/home_view.dart';
@@ -10,6 +11,8 @@ Route<dynamic> generateRoute(RouteSettings settings) {
       return _getPageRoute(HomeView(), settings);
     case AboutRoute:
       return _getPageRoute(AboutView(), settings);
+    case TechnologyRoute:
+      return _getPageRoute(TechnologyView(), settings);
     case SolutionsRoute:
       return _getPageRoute(SolutionsView(), settings);
     default:

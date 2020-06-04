@@ -44,7 +44,7 @@ class ParagraphOne extends StatelessWidget {
                 Text(
                   'Cerberus',
                   textAlign: textAlignment,
-                  style: TextStyle(fontWeight: FontWeight.w500, fontSize: titleSize)
+                  style: TextStyle(fontWeight: FontWeight.w500,fontSize: titleSize)
                 ),
                 SizedBox(height: 20),
                 Text(

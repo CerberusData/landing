@@ -20,11 +20,13 @@ class TabletDesktopNavBar extends StatelessWidget {
             mainAxisSize: MainAxisSize.min,
             children: <Widget>[
               NavBarItem('Home', HomeRoute),
-              SizedBox(width: 30,),
+              SizedBox(width: 30),
               NavBarItem('About', AboutRoute),
-              SizedBox(width: 30,),
-              NavBarItem('Solutions', SolutionsRoute),
-              SizedBox(width: 30,),
+              SizedBox(width: 30),
+              NavBarItem('Technology', TechnologyRoute),
+              SizedBox(width: 30),
+              /* NavBarItem('Solutions', SolutionsRoute),
+              SizedBox(width: 30), */
               RaisedButton(
                   color: secondaryColor,
                   shape:StadiumBorder(),

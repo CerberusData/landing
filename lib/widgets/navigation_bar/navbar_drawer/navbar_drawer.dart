@@ -20,8 +20,9 @@ class NavBarDrawer extends StatelessWidget {
         children: <Widget>[
           NavBarDrawerHeader(),
           NavBarItem('Home', HomeRoute, icon: Icons.home),
-          NavBarItem('About', AboutRoute, icon: Icons.edit_attributes),
-          NavBarItem('Solutions', SolutionsRoute, icon: Icons.widgets),
+          NavBarItem('About', AboutRoute, icon: Icons.account_box),
+          NavBarItem('Technology', TechnologyRoute, icon: Icons.all_inclusive),
+          /* NavBarItem('Solutions', SolutionsRoute, icon: Icons.widgets), */
         ],
       ),
     );

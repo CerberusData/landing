@@ -4,7 +4,7 @@ import 'package:flutter/material.dart';
 import 'package:responsive_builder/responsive_builder.dart';
 import 'package:cerberus/widgets/animations/hover/hover_extensions.dart';
 import 'package:url_launcher/url_launcher.dart';
-
+ 
 class SendEmail extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
@@ -73,7 +73,7 @@ class SendEmail extends StatelessWidget {
                           child: InkWell(
                             onTap: () {
                               customLaunch(context,
-                                  'mailto:stephanie@cerberusdata.ai?subject=test&body=$emailController.text');
+                                  'mailto:stephanie@cerberusdata.ai?subject=Get%20Demo&body=$emailController.text');
                             },
                             child: Center(
                               child: Row(
@@ -133,13 +133,13 @@ void customLaunch(context, command) async {
 /* 
 void customLaunch(context, mailaddress) async {
   print('OK');
-  String username = 'SourceEmail@gmail.com';
-  final smtpServer = gmail(username, PASSWORD);
+  String username = 'info@cerberusdata.ai';
+  final smtpServer = gmail(username, `PASSWORD`);
 
   final message = Message()
     ..from = Address(username)
-    ..recipients.add('MailReceiver@gmail.com')
-    ..subject = 'TEST'
+    ..recipients.add('stephanie@cerberusdata.ai')
+    ..subject = 'Request Demo'
     ..text = mailaddress;
 
   try {
