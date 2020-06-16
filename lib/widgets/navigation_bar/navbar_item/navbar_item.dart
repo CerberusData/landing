@@ -17,7 +17,7 @@ class NavBarItem extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    var model =NavBarItemModel(
+    var model = NavBarItemModel(
       title: title,
       navigationPath: navigationPath,
       iconData: icon,
