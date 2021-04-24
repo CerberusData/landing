@@ -1,0 +1,43 @@
+body {
+	margin: 0;
+	font-family: 'HelveticaNeue-Regular', Helvetica, -apple-system, BlinkMacSystemFont, Segoe UI, Oxygen, Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
+	font-size: 14px;
+	line-height: 1.5;
+	color: #333;
+	scroll-behavior: smooth;
+}
+
+h1, h2, h3, h4, h5, h6 {
+	margin: 0 0 0.5em 0;
+	font-weight: 400;
+	line-height: 1.2;
+}
+
+h1 {
+	font-size: 2em;
+}
+
+a {
+	color: inherit;
+}
+
+code {
+	font-family: menlo, inconsolata, monospace;
+	font-size: calc(1em - 2px);
+	color: #555;
+	background-color: #f0f0f0;
+	padding: 0.2em 0.4em;
+	border-radius: 2px;
+}
+
+@media (min-width: 400px) {
+	body {
+		font-size: 16px;
+	}
+}
+
+:root {
+	--blueberry: rgba(66, 133, 244, 1);
+	--hawkes-blue: rgba(210, 227, 252, 1);
+	--tan-hide: rgba(255, 166, 92, 1);
+}

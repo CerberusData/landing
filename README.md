@@ -12,18 +12,24 @@
 </p>
 
 <p align="center">
-  <img src="https://i.imgur.com/OMTBBs7.png">
+  <img src="https://i.imgur.com/K3TuPVS.png">
 </p>
 
 
-## Project Structure
-    .
-    ├── assets                  # Project media (images and fonts)
-    ├── lib
-    │   ├── constants
-    │   ├── datamodels
-    │   ├── router
-    │   ├── services
-    │   ├── view                # Project interfaces
-    │   └── widgets             # Project Components
-    ├── ...
+## Running the project
+
+Once you have created the project, install dependencies and run the project in development mode:
+
+```bash
+cd my-app
+npm install # or yarn
+npm run dev
+```
+
+This will start the development server on [localhost:3000](http://localhost:3000). Open it and click around.
+
+## Deployment
+  ```bash
+  npm run export
+  firebase deploy --only hosting:cerberus-firebase-landing
+  ```
